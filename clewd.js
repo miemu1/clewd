@@ -2,7 +2,7 @@
  * SET YOUR COOKIE HERE
  * @preserve
  */
-const Cookie = '';
+const Cookie = process.env.cookies;
 
 /**
 ## EXPERIMENTAL
@@ -43,7 +43,7 @@ const Cookie = '';
     'StripHuman': false
 };
 
-const Ip = '127.0.0.1';
+const Ip = '0.0.0.0';
 const Port = 8444;
 
 /**
